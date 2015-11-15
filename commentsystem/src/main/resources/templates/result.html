@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form result: Add new comment</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Result</h1>
+    <p th:text="'Name: ' + ${person.name}" />
+    <p th:text="'Location: ' + ${person.location}" />
+    <p th:text="'Age: ' + ${person.age}" />
+    <p th:text="'Comment: ' + ${person.comment}" />
+    <a href="/">Submit another comment</a>
+</body>
+</html>
